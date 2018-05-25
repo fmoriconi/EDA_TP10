@@ -126,16 +126,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="basicLCD.h" />
+    <ClInclude Include="Feed.h" />
     <ClInclude Include="Hitachi.h" />
     <ClInclude Include="LCDLow.h" />
     <ClInclude Include="LibAdicional\ftd2xx.h" />
     <ClInclude Include="Timer.h" />
+    <ClInclude Include="XML_Event.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Feed.cpp" />
     <ClCompile Include="Hitachi.cpp" />
     <ClCompile Include="LCDLow.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="XML_Event.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

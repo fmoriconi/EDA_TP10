@@ -30,6 +30,12 @@
     <ClInclude Include="LibAdicional\ftd2xx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Feed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XML_Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hitachi.cpp">
@@ -42,6 +48,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Feed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XML_Event.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
