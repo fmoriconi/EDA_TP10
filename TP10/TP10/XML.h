@@ -16,7 +16,7 @@ public:
 	XML();
 	~XML();
 
-	void parse(FEED feed_, std::string rss_ );
+	bool parse(FEED feed_, std::string rss_ );
 
 
 	XML_Parser p;
