@@ -1,6 +1,7 @@
 #pragma once
-#include "XML_Event.h"
-typedef void(*fpointer)(void* userData);
+#include <string>
+
+typedef void(*fpointer)(void* ud, std::string data);
 
 enum class state{INIT,
 				CH,
@@ -10,16 +11,30 @@ enum class state{INIT,
 				ITEM_TITLE,
 				ITEM_PUBDATE,
 				ITEM_OTHER,
-				IDLE
 				};
 
-void rest(void* userData);
-void exit(void* userData);
-void getSource(void* userData);
-void getPubDate(void* userData);
-void getTitle(void* userData);
+void rest(void* ud, std::string data);
+void getSource(void* ud, std::string data);
+void getPubDate(void* ud, std::string data);
+void getTitle(void* ud, std::string data);
 
 typedef struct{
 	state nextState;
 	fpointer action;
 }FSM_CELL;
+
+void rest(void* ud, std::string data) {
+
+}
+
+void getSource(void* ud, std::string data) {
+	
+}
+
+void getPubDate(void* ud, std::string data) {
+
+}
+
+void getTitle(void* ud, std::string data) {
+
+}

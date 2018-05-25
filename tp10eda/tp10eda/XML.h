@@ -3,12 +3,13 @@
 #include "expat.h"
 #include <iostream>
 #include <string>
+#include "Feed.h"
 
-typedef myUserData{
+typedef struct{
 	uint32_t depth;
 	std::string * parElement; ///Este no se si esta bien.
 	char * buffer;
-};
+}myUserData;
 
 class XML
 {
@@ -16,7 +17,7 @@ public:
 	XML();
 	~XML();
 
-	void parse(FEED feed_, std::string rss_ );
+	void parse(Feed feed_, std::string rss_ );
 
 
 	XML_Parser p;
