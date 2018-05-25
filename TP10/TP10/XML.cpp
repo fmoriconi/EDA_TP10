@@ -1,6 +1,7 @@
 #include "XML.h"
 #include "XML_Event.h"
 #include "general.h"
+#include <sys/stat.h>
 
 XML::XML()
 {
@@ -38,5 +39,11 @@ bool XML::parse(FEED feed_, std::string rss_) {
 	}
 
 	return success;
+
+}
+
+int XML::getSize(FILE * fp_) {
+
+	
 
 }
