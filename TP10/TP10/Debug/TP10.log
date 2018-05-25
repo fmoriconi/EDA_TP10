@@ -1,13 +1,1 @@
-﻿  Client.cpp
-c:\users\marth\documents\github\eda_tp10\tp10\tp10\client.h(6): fatal error C1083: No se puede abrir el archivo incluir: 'boost/asio.hpp': No such file or directory
-  main.cpp
-c:\users\marth\documents\github\eda_tp10\tp10\tp10\main.cpp(19): error C3861: 'getRss': no se encontró el identificador
-c:\users\marth\documents\github\eda_tp10\tp10\tp10\main.cpp(21): error C2065: 'Feed': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10\tp10\main.cpp(21): error C2146: error de sintaxis: falta ';' delante del identificador 'feed'
-c:\users\marth\documents\github\eda_tp10\tp10\tp10\main.cpp(21): error C2065: 'feed': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10\tp10\main.cpp(22): error C2065: 'feed': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10\tp10\main.cpp(22): error C2228: el operando izquierdo de '.loadInfo' debe tener class/struct/union
-  c:\users\marth\documents\github\eda_tp10\tp10\tp10\main.cpp(22): note: el tipo es 'unknown-type'
-c:\users\marth\documents\github\eda_tp10\tp10\tp10\main.cpp(31): error C2039: 'show': no es un miembro de 'Hitachi'
-  c:\users\marth\documents\github\eda_tp10\tp10\tp10\hitachi.h(8): note: vea la declaración de 'Hitachi'
-  Generando código...
+﻿  TP10.vcxproj -> C:\Users\Acer\Desktop\GitHub\EDA_TP10\TP10\Debug\TP10.exe
