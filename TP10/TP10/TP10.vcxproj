@@ -126,24 +126,56 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="basicLCD.h" />
+<<<<<<< HEAD
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Hitachi.h" />
+    <ClInclude Include="LCDLow.h" />
+    <ClInclude Include="LibAdicional\ftd2xx.h" />
+    <ClInclude Include="Packet.h" />
+=======
     <ClInclude Include="Feed.h" />
     <ClInclude Include="Hitachi.h" />
     <ClInclude Include="LCDLow.h" />
     <ClInclude Include="LibAdicional\ftd2xx.h" />
     <ClInclude Include="News.h" />
+>>>>>>> 5e83a843fa003f38916ac9f44829358eee0ab573
     <ClInclude Include="Timer.h" />
     <ClInclude Include="XML_Event.h" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Hitachi.cpp" />
+    <ClCompile Include="LCDLow.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Packet.cpp" />
+=======
     <ClCompile Include="Feed.cpp" />
     <ClCompile Include="Hitachi.cpp" />
     <ClCompile Include="LCDLow.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="News.cpp" />
+>>>>>>> 5e83a843fa003f38916ac9f44829358eee0ab573
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="XML_Event.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\boost_chrono-vc141.1.67.0.0\build\boost_chrono-vc141.targets" Condition="Exists('..\packages\boost_chrono-vc141.1.67.0.0\build\boost_chrono-vc141.targets')" />
+    <Import Project="..\packages\boost_date_time-vc141.1.67.0.0\build\boost_date_time-vc141.targets" Condition="Exists('..\packages\boost_date_time-vc141.1.67.0.0\build\boost_date_time-vc141.targets')" />
+    <Import Project="..\packages\boost_regex-vc141.1.67.0.0\build\boost_regex-vc141.targets" Condition="Exists('..\packages\boost_regex-vc141.1.67.0.0\build\boost_regex-vc141.targets')" />
+    <Import Project="..\packages\boost_system-vc141.1.67.0.0\build\boost_system-vc141.targets" Condition="Exists('..\packages\boost_system-vc141.1.67.0.0\build\boost_system-vc141.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\boost_chrono-vc141.1.67.0.0\build\boost_chrono-vc141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_chrono-vc141.1.67.0.0\build\boost_chrono-vc141.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_date_time-vc141.1.67.0.0\build\boost_date_time-vc141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_date_time-vc141.1.67.0.0\build\boost_date_time-vc141.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_regex-vc141.1.67.0.0\build\boost_regex-vc141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_regex-vc141.1.67.0.0\build\boost_regex-vc141.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_system-vc141.1.67.0.0\build\boost_system-vc141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_system-vc141.1.67.0.0\build\boost_system-vc141.targets'))" />
+  </Target>
 </Project>

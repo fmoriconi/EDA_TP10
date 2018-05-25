@@ -31,6 +31,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
 <<<<<<< HEAD
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+=======
+<<<<<<< HEAD
     <ClInclude Include="Feed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -38,6 +44,7 @@
 =======
     <ClInclude Include="News.h">
 >>>>>>> ed388a071ba2e73c7849d5cd72d047a85b79298b
+>>>>>>> 5e83a843fa003f38916ac9f44829358eee0ab573
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -55,6 +62,17 @@
       <Filter>Source Files</Filter>
     </ClCompile>
 <<<<<<< HEAD
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+=======
+<<<<<<< HEAD
     <ClCompile Include="Feed.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -64,5 +82,6 @@
 >>>>>>> ed388a071ba2e73c7849d5cd72d047a85b79298b
       <Filter>Source Files</Filter>
     </ClCompile>
+>>>>>>> 5e83a843fa003f38916ac9f44829358eee0ab573
   </ItemGroup>
 </Project>
