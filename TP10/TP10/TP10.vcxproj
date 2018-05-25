@@ -127,6 +127,7 @@
   <ItemGroup>
     <ClInclude Include="basicLCD.h" />
     <ClInclude Include="Feed.h" />
+    <ClInclude Include="FSM.h" />
     <ClInclude Include="Hitachi.h" />
     <ClInclude Include="LCDLow.h" />
     <ClInclude Include="LibAdicional\ftd2xx.h" />
