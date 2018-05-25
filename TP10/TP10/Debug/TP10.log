@@ -1,1 +1,18 @@
-﻿  TP10.vcxproj -> C:\Users\Acer\Desktop\GitHub\EDA_TP10\TP10\Debug\TP10.exe
+﻿  Hitachi.cpp
+  LCDLow.cpp
+  main.cpp
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\main.cpp(19): error C3861: 'getRss': identifier not found
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\main.cpp(21): error C2065: 'Feed': undeclared identifier
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\main.cpp(21): error C2146: syntax error: missing ';' before identifier 'feed'
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\main.cpp(21): error C2065: 'feed': undeclared identifier
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\main.cpp(22): error C2065: 'feed': undeclared identifier
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\main.cpp(22): error C2228: left of '.loadInfo' must have class/struct/union
+  c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\main.cpp(22): note: type is 'unknown-type'
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\main.cpp(31): error C2039: 'show': is not a member of 'Hitachi'
+  c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\hitachi.h(8): note: see declaration of 'Hitachi'
+  News.cpp
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\news.cpp(11): error C2600: 'News::~News': cannot define a compiler-generated special member function (must be declared in the class first)
+  Timer.cpp
+  XML.cpp
+c:\users\frank\onedrive\documentos\github\eda_tp10\tp10\tp10\xml.h(3): fatal error C1083: Cannot open include file: 'expat.h': No such file or directory
+  Generating Code...

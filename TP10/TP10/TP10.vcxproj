@@ -126,25 +126,38 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="basicLCD.h" />
+<<<<<<< HEAD
     <ClInclude Include="Feed.h" />
     <ClInclude Include="FSM.h" />
+=======
+    <ClInclude Include="general.h" />
+>>>>>>> 7c50a445c750baba14e2440f6f38c29f52ed2879
     <ClInclude Include="Hitachi.h" />
     <ClInclude Include="LCDLow.h" />
     <ClInclude Include="LibAdicional\ftd2xx.h" />
     <ClInclude Include="News.h" />
     <ClInclude Include="Timer.h" />
-    <ClInclude Include="XML_Event.h" />
+    <ClInclude Include="XML.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Feed.cpp" />
     <ClCompile Include="Hitachi.cpp" />
     <ClCompile Include="LCDLow.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="News.cpp" />
     <ClCompile Include="Timer.cpp" />
-    <ClCompile Include="XML_Event.cpp" />
+    <ClCompile Include="XML.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\expat.v141.2.2.5.1\build\native\expat.v141.targets" Condition="Exists('..\packages\expat.v141.2.2.5.1\build\native\expat.v141.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\expat.v141.2.2.5.1\build\native\expat.v141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\expat.v141.2.2.5.1\build\native\expat.v141.targets'))" />
+  </Target>
 </Project>
