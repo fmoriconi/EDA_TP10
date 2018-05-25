@@ -129,12 +129,14 @@
     <ClInclude Include="Hitachi.h" />
     <ClInclude Include="LCDLow.h" />
     <ClInclude Include="LibAdicional\ftd2xx.h" />
+    <ClInclude Include="News.h" />
     <ClInclude Include="Timer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hitachi.cpp" />
     <ClCompile Include="LCDLow.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="News.cpp" />
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
