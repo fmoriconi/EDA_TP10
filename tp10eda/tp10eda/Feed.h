@@ -17,7 +17,9 @@ public:
 	const std::string getFeedTitle() { return this->source; }
 	const News* getNextTitle() { newsindex++; return (news[newsindex]); }
 	const News* getPreviousTitle() { newsindex--; return (news[newsindex]); }
+
 	void runFilter(XML_Event xml_event); //invocada por XML_STARTTAG_HANDLER, XML_ENDTAG_HANDLER y XML_CHARACTERDATA_HANDLER
+
 private:
 	std::string source;
 	News* currentNews;

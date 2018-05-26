@@ -24,6 +24,7 @@ public:
 	XML_Event(xmlev event_type_, std::string data_) : event_type(event_type_), data(data_) {}
 	std::string getData() { return this->data; }
 	xmlev getEventType() { return this->event_type; }
+
 private:
 	xmlev event_type;
 	std::string data;
