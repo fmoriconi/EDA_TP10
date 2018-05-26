@@ -120,6 +120,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="client.cpp" />
     <ClCompile Include="Feed.cpp" />
     <ClCompile Include="Hitachi.cpp" />
     <ClCompile Include="LCDLow.cpp" />
@@ -131,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basicLCD.h" />
+    <ClInclude Include="client.h" />
     <ClInclude Include="Feed.h" />
     <ClInclude Include="FSM.h" />
     <ClInclude Include="general.h" />
@@ -148,11 +150,13 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\expat.v141.2.2.5.1\build\native\expat.v141.targets" Condition="Exists('..\packages\expat.v141.2.2.5.1\build\native\expat.v141.targets')" />
+    <Import Project="..\packages\boost_chrono-vc141.1.67.0.0\build\boost_chrono-vc141.targets" Condition="Exists('..\packages\boost_chrono-vc141.1.67.0.0\build\boost_chrono-vc141.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\expat.v141.2.2.5.1\build\native\expat.v141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\expat.v141.2.2.5.1\build\native\expat.v141.targets'))" />
+    <Error Condition="!Exists('..\packages\boost_chrono-vc141.1.67.0.0\build\boost_chrono-vc141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\boost_chrono-vc141.1.67.0.0\build\boost_chrono-vc141.targets'))" />
   </Target>
 </Project>
