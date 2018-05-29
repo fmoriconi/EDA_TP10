@@ -13,28 +13,8 @@ enum class state{INIT,
 				ITEM_OTHER,
 				};
 
-void rest(void* ud, std::string data);
-void getSource(void* ud, std::string data);
-void getPubDate(void* ud, std::string data);
-void getTitle(void* ud, std::string data);
-
 typedef struct{
 	state nextState;
 	fpointer action;
 }FSM_CELL;
 
-void rest(void* ud, std::string data) {
-
-}
-
-void getSource(void* ud, std::string data) {
-	
-}
-
-void getPubDate(void* ud, std::string data) {
-
-}
-
-void getTitle(void* ud, std::string data) {
-
-}

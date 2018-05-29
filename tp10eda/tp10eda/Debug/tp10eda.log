@@ -1,27 +1,4 @@
-﻿  client.cpp
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\client.h(4): fatal error C1083: No se puede abrir el archivo incluir: 'boost/asio.hpp': No such file or directory
-  main.cpp
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(21): error C3861: 'getRss': no se encontró el identificador
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(24): error C2065: 'XML': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(24): error C2146: error de sintaxis: falta ';' delante del identificador 'xml'
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(24): error C2065: 'xml': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(25): error C2065: 'xml': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(25): error C2228: el operando izquierdo de '.parse' debe tener class/struct/union
-  c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(25): note: el tipo es 'unknown-type'
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(37): error C2065: 'feed': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(39): error C2059: error de sintaxis: '}'
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(41): error C2228: el operando izquierdo de '.cout' debe tener class/struct/union
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(41): error C2228: el operando izquierdo de '.<<' debe tener class/struct/union
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(41): error C2228: el operando izquierdo de '.endl' debe tener class/struct/union
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(42): error C2228: el operando izquierdo de '.cout' debe tener class/struct/union
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\main.cpp(42): error C2228: el operando izquierdo de '.endl' debe tener class/struct/union
-  News.cpp
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\news.cpp(11): error C2600: 'News::~News': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
-  XML.cpp
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\xml.cpp(8): error C2065: 'StartTag': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\xml.cpp(8): error C2065: 'EndTag': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\xml.cpp(23): error C2065: 'FEED': identificador no declarado
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\xml.cpp(23): error C2146: error de sintaxis: falta ')' delante del identificador 'feed_'
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\xml.cpp(23): error C2143: error de sintaxis: falta ';' delante de '{'
-c:\users\marth\documents\github\eda_tp10\tp10eda\tp10eda\xml.cpp(23): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
-  Generando código...
+﻿  main.cpp
+c:\users\acer\desktop\tp10eda\packages\pdcurses34.3.4.0.1\build\native\include\curses.h(153): warning C4005: 'MOUSE_MOVED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\wincon.h(123): note: see previous definition of 'MOUSE_MOVED'
+  tp10eda.vcxproj -> C:\Users\Acer\Desktop\tp10eda\Debug\tp10eda.exe

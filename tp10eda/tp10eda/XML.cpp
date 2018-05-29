@@ -24,14 +24,15 @@ XML::~XML()
 
 bool XML::parse(Feed feed_, std::string rss_, int filesize_) {
 
-	FILE * fp = fopen(FILENAME, "rb");					//Abrimos el archivo en el cual estan contenido lo obtenido a traves del networking
+	FILE * fp = NULL;
+	fopen_s(&fp, FILENAME, "rb");					//Abrimos el archivo en el cual estan contenido lo obtenido a traves del networking
 	bool success = false;
 
 	if (fp != NULL) {			
 		char * buffer = (char *)calloc(filesize_, sizeof(char));		///Revisar: ¿Me pasan la cantidad de bytes o la cantidad de elementos?
 		if (buffer != NULL) {
-			fread(buffer, sizeof(char), filesize, fp);				//Pasamos el archivo a un buffer.
-			this->status = XML_Parse(p, buffer, filesize, true);	//Parseamos
+			fread(buffer, sizeof(char), filesize_, fp);				//Pasamos el archivo a un buffer.
+			this->status = XML_Parse(p, buffer, filesize_, true);	//Parseamos
 			if (status != 0)
 				 success = true;										//Si status es 0, hubo un problema parseando
 		}
