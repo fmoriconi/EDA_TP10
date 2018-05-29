@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\frank\desktop\aaaaaaah\tp10vf\packages\pdcurses34.3.4.0.1\build\native\include\curses.h(153): warning C4005: 'MOUSE_MOVED': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wincontypes.h(103): note: see previous definition of 'MOUSE_MOVED'
+c:\users\frank\desktop\aaaaaaah\tp10vf\tp10vf\client.h(4): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+  c:\users\frank\desktop\aaaaaaah\tp10vf\tp10vf\client.h(4): note: command-line arguments:  see previous definition of 'WIN32_LEAN_AND_MEAN'
+  TP10VF.vcxproj -> C:\Users\frank\Desktop\AAAAAAAH\TP10VF\Debug\TP10VF.exe

@@ -1,4 +1,0 @@
-﻿  main.cpp
-c:\users\acer\desktop\tp10eda\packages\pdcurses34.3.4.0.1\build\native\include\curses.h(153): warning C4005: 'MOUSE_MOVED': macro redefinition
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\wincon.h(123): note: see previous definition of 'MOUSE_MOVED'
-  tp10eda.vcxproj -> C:\Users\Acer\Desktop\tp10eda\Debug\tp10eda.exe
